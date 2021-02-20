@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaoside</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js" integrity="sha512-QcYm1q7RbnXmwY7HJ0H7938IS0MalTPYqGUF0fIwQgEjMBt2tqjDBt+R5I+ppdwEohjMdHnFU0H+RxmrGQ8qcg==" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo-link"><h1>Chaoside</h1></a>
+        <nav>
+            <a href="#vision">Vision</a>
+            <!-- <a href="#work">Our work</a> -->
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main class="main-content">
+        <div class="hero">
+            <h2>To coalesce the future.</h2>
+            <p>This is our mission.</p>
+        </div>
+        <div id="cursor">
+            <svg width="28" height="44" viewBox="0 0 28 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.785714" y="0.785714" width="26.1905" height="42.4286" rx="13.0952" stroke="white" stroke-width="1.57143"/>
+                <circle class="wheel" cx="13.881" cy="9.69049" r="2.35714" fill="white"/>
+            </svg>
+            <p>Scroll down</p>
+        </div>
+    </main>
+    <section id="vision">
+        <h2>We strive to <span>Integrate</span></h2>
+        <div class="boxes">
+            <div class="dark">
+                <p>We know it. Real-world problems require real-world solutions.</p>
+                <p>And most of them require integration and cooperation of multiple areas of knowledge.</p>
+            </div>
+            <div class="light">
+                <p>That is why our team, although small, is made up of professionals who have expertise in several areas of knowledge.</p>
+                <p>A single member is an experienced graphic designer and software engineer.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1>Contact us</h1>
+        <form id="contact-form">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Your message"></textarea>
+            <button>Submit</button>
+        </form>
+    </section>
+
+    <script src="js/scroll.js"></script>
+    <script src="js/gsap.js"></script>
+    <script src="js/contact-form.js"></script>
+</body>
+</html>
