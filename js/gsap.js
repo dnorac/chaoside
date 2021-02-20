@@ -40,7 +40,7 @@ gsap.from("#contact", {
     scrollTrigger: {
         trigger: "#contact",
         scrub: 1,
-        start: "-=400"
+        start: "-=200"
     },
     duration: 1,
     ease: "elastic",
