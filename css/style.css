@@ -267,6 +267,26 @@ header nav a:hover {
     font-size: 26px;
 }
 
+@media (max-width: 500px) {
+    #vision h2 {
+        margin-left: 0;
+        font-size: 2rem;
+    }
+
+    #vision h2 span {
+        font-size: 3rem;
+    }
+
+    #vision .boxes .dark,
+    #vision .boxes .light {
+        font-size: 1rem;
+    }
+
+    #vision .boxes .light {
+        left: 0;
+    }
+}
+
 #contact {
     background: white;
     min-height: 100vh;
