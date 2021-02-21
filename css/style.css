@@ -105,7 +105,7 @@ header nav a:hover {
 }
 
 .hero {
-    flex: 1;
+    margin-bottom: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,6 +123,37 @@ header nav a:hover {
 .hero p {
     font-size: 24px;
     margin: 0;
+}
+
+@media (max-width: 500px) {
+    header {
+        padding: 2rem 1rem;
+    }
+
+    header h1 {
+        font-size: 1.4rem;
+        text-indent: 50px;
+        line-height: 2rem;
+    }
+
+    header h1::before {
+        background-color: transparent;
+        content: '';
+        position: absolute;
+        left: .5em;
+        width: 30px;
+        height: 30px;
+        background: url(../img/logo.png);
+        background-size: cover;
+    }
+
+    header nav {
+        gap: .5rem;
+    }
+
+    header nav a {
+        font-size: 1.2rem;
+    }
 }
 
 #cursor {
