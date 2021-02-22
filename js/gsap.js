@@ -13,26 +13,34 @@ gsap.to('#cursor', {
 gsap.from("#vision h2", {
     scrollTrigger: {
         trigger: "#vision",
-        scrub: 1,
+        scrub: .5,
         start: '-=500',
         end: '+=300'
     },
-    duration: 1,
     yPercent: -50,
     stagger: 0.2,
     opacity: 0,
 })
 
-gsap.from(".boxes > *", {
+gsap.from(".boxes > .dark", {
+    scrollTrigger: {
+        trigger: "#vision",
+        scrub: 1,
+        start: "-=200",
+        end: "+=300",
+    },
+    xPercent: -50,
+    opacity: 0,
+});
+
+gsap.from(".boxes > .light", {
     scrollTrigger: {
         trigger: "#vision",
         scrub: 1,
         start: "-=300",
-        end: "+=300"
+        end: "+=300",
     },
-    duration: 1,
-    xPercent: -50,
-    stagger: 0.2,
+    xPercent: +50,
     opacity: 0,
 });
 
@@ -40,7 +48,7 @@ gsap.from("#contact", {
     scrollTrigger: {
         trigger: "#contact",
         scrub: 1,
-        start: "-=200"
+        start: "-=200",
     },
     duration: 1,
     ease: "elastic",
