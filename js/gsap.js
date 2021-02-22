@@ -48,10 +48,8 @@ gsap.from("#contact", {
     scrollTrigger: {
         trigger: "#contact",
         scrub: 1,
-        start: "-=200",
+        start: "-=400",
+        end: "+=200"
     },
-    duration: 1,
-    ease: "elastic",
-    opacity: 0,
-    force3D: true
+    opacity: 0
 });
