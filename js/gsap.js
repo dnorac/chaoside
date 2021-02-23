@@ -26,9 +26,10 @@ gsap.from(".boxes > .dark", {
     scrollTrigger: {
         trigger: "#vision",
         scrub: 1,
-        start: "-=200",
-        end: "+=300",
+        start: "-=400",
+        end: "0",
     },
+    ease: "linear",
     xPercent: -50,
     opacity: 0,
 });
@@ -37,8 +38,8 @@ gsap.from(".boxes > .light", {
     scrollTrigger: {
         trigger: "#vision",
         scrub: 1,
-        start: "-=300",
-        end: "+=300",
+        start: "-=400",
+        end: "0",
     },
     xPercent: +50,
     opacity: 0,
