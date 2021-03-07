@@ -53,12 +53,12 @@ gsap.from(".boxes > .light", {
     opacity: 0,
 });
 
-gsap.from("#contact", {
+gsap.from("#contact-form", {
     scrollTrigger: {
-        trigger: "#contact",
+        trigger: "#contact-form",
         scrub: 1,
-        start: "-=400",
-        end: "+=200"
+        start: '-=600',
+        end: 'bottom bottom'
     },
     opacity: 0
 });

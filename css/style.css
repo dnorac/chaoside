@@ -311,6 +311,8 @@ header nav a:hover {
 }
 
 #contact h1 {
+  align-self: center;
+  margin-bottom: 3rem;
   font-weight: bold;
   font-size: 3rem;
 }
