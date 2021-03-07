@@ -376,7 +376,7 @@ header nav a:hover {
   background-size: 100% 3px;
   cursor: pointer;
   color: #0d1e49;
-  outline: none;
+  outline: 2px solid white;
 }
 
 #contact-form button:focus {
