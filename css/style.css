@@ -10,8 +10,10 @@ body {
 }
 
 main {
+  position: relative;
+
   min-height: 100vh;
-  background: #07122f url(../img/background.webp);
+  background: #07122f55;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -21,6 +23,15 @@ main {
   justify-content: flex-end;
 
   color: white;
+}
+
+main video {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 header {
@@ -112,6 +123,7 @@ header nav a:hover {
   align-items: center;
   align-self: center;
   text-align: center;
+  margin-top: 10rem;
 }
 
 .hero h2 {

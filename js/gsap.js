@@ -1,3 +1,11 @@
+gsap.from(".hero", {
+    delay: 1,
+    duration: 2,
+    ease: 'elastic',
+    yPercent: 10,
+    opacity: 0
+})
+
 gsap.to('#cursor', {
     scrollTrigger: {
         trigger: '.main-content',
