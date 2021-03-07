@@ -126,6 +126,9 @@ header nav a:hover {
 }
 
 .hero h2 {
+  background: white;
+  color: black;
+  padding: 0 0.2em;
   font-size: 48px;
   font-weight: lighter;
   margin: 0;
