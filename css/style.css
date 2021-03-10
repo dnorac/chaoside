@@ -250,6 +250,7 @@ header nav a:hover {
 }
 
 #vision .boxes {
+  overflow: hidden;
   margin-left: -1.5rem;
   max-width: 560px;
   width: 100%;
