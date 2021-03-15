@@ -30,6 +30,8 @@ main {
 }
 
 main video {
+  background: black url(../img/chaosidebg.jpg) no-repeat;
+  background-size: cover;
   position: fixed;
   top: 0;
   height: 100%;
