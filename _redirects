@@ -1,4 +1,4 @@
-https://chaoside.win/* https://chaoside.com/ 301!
-http://chaoside.win/* https://chaoside.com/ 301!
-http://www.chaoside.win/* https://chaoside.com/ 301!
-https://www.chaoside.win/* https://chaoside.com/ 301!
+https://chaoside.win/* https://chaoside.com/:splat 301!
+http://chaoside.win/* https://chaoside.com/:splat 301!
+http://www.chaoside.win/* https://chaoside.com/:splat 301!
+https://www.chaoside.win/* https://chaoside.com/:splat 301!
