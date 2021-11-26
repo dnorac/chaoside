@@ -325,6 +325,8 @@ header nav a:hover {
   align-self: center;
   margin-bottom: 3rem;
   font-weight: bold;
+  font-family: "Reem Kufi";
+  color: #03f;
   font-size: 3rem;
 }
 
