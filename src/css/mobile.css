@@ -1,0 +1,46 @@
+header {
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 1.4rem;
+  text-indent: 50px;
+  line-height: 2rem;
+}
+
+header h1::before {
+  background-color: transparent;
+  content: "";
+  position: absolute;
+  left: 0.5em;
+  width: 30px;
+  height: 30px;
+  background: url(../img/logo.png?as=webp);
+  background-size: cover;
+}
+
+header nav {
+  gap: 0.5rem;
+}
+
+header nav a {
+  font-size: 1.2rem;
+}
+
+#vision h2 {
+  margin-left: 0;
+  font-size: 2rem;
+}
+
+#vision h2 span {
+  font-size: 3rem;
+}
+
+#vision .boxes .dark,
+#vision .boxes .light {
+  font-size: 1rem;
+}
+
+#vision .boxes .light {
+  left: 0;
+}
