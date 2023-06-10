@@ -30,7 +30,7 @@ main {
 }
 
 main video {
-  background: black url(../img/chaosidebg.jpg) no-repeat;
+  background: black url(../img/chaosidebg.jpg?as=webp) no-repeat;
   background-size: cover;
   position: fixed;
   top: 0;
